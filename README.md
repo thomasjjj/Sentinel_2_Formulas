@@ -5,6 +5,7 @@ This repository contains Sentinel Hub evalscripts for Copernicus Sentinel-2 imag
 ## Contents
 
 - `fire_detection.js`: Fire and smoke highlighting over a greyscale contextual background.
+- [`oil_spill.js`](visualisations/oil/oil_spill.js): Oil-like spectral-anomaly highlighting in bright yellow over a monochrome background. See the [oil-spill detection documentation](visualisations/oil/README.md) for usage, tuning, and limitations.
 
 ## `fire_detection.js`
 

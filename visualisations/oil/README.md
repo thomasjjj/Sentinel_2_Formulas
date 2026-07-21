@@ -2,6 +2,8 @@
 
 ![img.png](img.png)
 
+![img_3.png](img_3.png)
+
 A Copernicus Browser **Evalscript V3** that highlights strongly oil-like spectral anomalies as **bright yellow** while rendering all other valid pixels in monochrome.
 
 The script was developed through visual experimentation with a Sentinel-2 oil-spill ratio composite. A strong nonlinear display transformation—approximately **gain 2.4** and **gamma 10**—caused most of the sea surface to collapse towards black while suspected oil features appeared as highly saturated rainbow-like anomalies. The script reproduces that behaviour programmatically, measures the resulting colour divergence, and replaces only the most extreme anomalies with yellow.
